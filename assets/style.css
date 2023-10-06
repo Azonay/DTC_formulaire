@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(192, 185, 185, 0.836);
+}
+.container{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+.section {
+    padding: 50px 20px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* text-align: center;*/
+    align-items: center; 
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logo img {
+    max-width: 100%;
+}
+.nom_etablissement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nom_etablissement h1 {
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 10px;
+}
+.nom_etablissement h2 {
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 10px;
+    color: grey;
+}
+.header.information_etablissement {
+    justify-content: end;
+    align-items: end;
+}
+.information_etablissement h3, h4 {
+    margin-top: 0;
+    padding-top: 0;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+}
+.information_etablissement h4 {
+    color: gray;
+    font-size: 12px;
+}
+.titre_formulaire {
+    margin-top: 50px;
+}
+.titre_formulaire h1,p {
+    color: gray;
+}
+.name_information {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+input {
+    width: max-content;
+}
+label {
+    color: gray;
+    margin-top: 50px;
+}
+.input_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
